@@ -1,7 +1,7 @@
 var express = require('express')
   , fs  = require('fs')
   , app = express()
-  , port = process.env.PORT || 5000;
+  , port = process.env.PORT || 8080;
 
 app.use(express.logger());
 
